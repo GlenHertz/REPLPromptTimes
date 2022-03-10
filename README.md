@@ -1,5 +1,5 @@
 # REPLPromptTimes
-Enhances the Julia REPL prompt to include the run time of the previous command in the prompt.
+Enhances the Julia REPL prompt to include the run time of the previous command.
 
 ## Usage
 
