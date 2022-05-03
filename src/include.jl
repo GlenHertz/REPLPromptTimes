@@ -9,7 +9,7 @@ end
 
 # Format the time printing here as you wish
 function prettytime(t)
-    if REPL.PROMPT_CACHE[] != nothing
+    if REPL.PROMPT_CACHE[] !== nothing
         return REPL.PROMPT_CACHE[]
     end
     if t < 1e2
